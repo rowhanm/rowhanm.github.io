@@ -22,111 +22,66 @@
 
 <main role="main" class="flex-shrink-0">
     <div class="container">
-      <br>
-      <h3 style="text-align: center">Rohan M</h4>
-      <h6 style="text-align: center">Computer Science, Machine Learning,</h4>
-      <h6 style="text-align: center">Computer Vision, Music, Philosophy,</h4>
-      <h6 style="text-align: center">Applied Math</h4>
-      <br>
-      <div class="container text-muted" style="text-align: center">
-        <span>
-          <a href="./sections/experience.html" style="text-align:left">Why</a>
-        </span>
-        <span style="margin-left: 2%">
-          <a href="./sections/about.html">About Me</a>
-        </span>
-        <span style="margin-left: 2%">
-          <a href="./sections/papers.html">Published Papers/Longer Reads</a>
-        </span>
-        <span style="margin-left: 2%">
-          <a href="https://twitter.com/rowhan_m">Twitter</a> <a href="https://www.ted.com/talks/manoush_zomorodi_how_boredom_can_lead_to_your_most_brilliant_ideas">(might not see DMs)</a>
-        </span>
-      </div>
-      
-      
-      <br>
-      <br>
-      <div>
+      <header class="site-header">
+        <h3 class="site-title">Rohan M</h3>
+        <p class="site-subtitle">Computer Science, Machine Learning, Computer Vision, Music, Philosophy, Applied Math</p>
+      </header>
+
+      <nav class="navigation">
+        <a href="./sections/experience.html">Why</a>
+        <a href="./sections/about.html">About Me</a>
+        <a href="./sections/papers.html">Papers</a>
+        <a href="https://twitter.com/rowhan_m">Twitter</a>
+      </nav>
+      <section class="article-list">
         <ul>
 
-          <br>
-
-          <li><h5><a href="./sections/submod.html">Why we seem to lose interest in things over time? </a> </h5>
-            <p> The philosophy behind some of my research ideas with a gentle introduction to <i><b>submodularity</b></i> - something I worked on during my time with the research group at AitoeLabs and the Indian Institute of Technology, Bombay.  
-            <img src="images/dim_ret.png" alt="Diminishing returns">
+          <li><h5><a href="./sections/books.html">Reading for curiosity, not completion</a></h5>
+            <img src="images/postitapocalypse.gif" alt="Reading for curiosity, not completion">
             </p>
           </li>
 
           <br>
 
-          <li><h5><a href="./sections/books.html">How might we make people read 1000 books in their lifetimes? </a> </h5>
-            <p> Some thoughts about reading, possibly helping people read more using <i>"AI"</i>, and my time at the Digital Product School in Munich, Germany.  
-            <img src="./images/splits.png" style="display: block; margin: auto; height: 60%; width: 60%" alt="Life Splits">
+          <li><h5><a href="./sections/research.html">Learning from recreational research</a></h5>
+            <p>Recreating AlexNet from scratch in (old) Keras and understanding the math behind convolutions and pooling.
             </p>
           </li>
 
           <br>
 
-          <li><h5><a href="./sections/selfsup.html">Are you disciplined if someone has to supervise you?</a> </h5>
-            <p> The great J. Cole says <i>"...the only real change comes from inside"</i>. Why you're probably overstating your capacity to learn if the only signal you get is external.
-            <!-- <img src="images/dogs.png" alt="Dogs v/s Cats"> -->
-            </p>
-          </li>
-
-
-          <br>
-
-          <li><h5><a href="./sections/surv.html">Thoughts on surveillance and computer vision's part in it</a> </h5>
-            <p> We like to have information. We like to have information over others. Why having the flow of information set up as a zero sum game is a problem.
-            <!-- <img src="images/dogs.png" alt="Dogs v/s Cats"> -->
+          <li><h5><a href="./sections/selfsup.html">Are you disciplined if someone has to supervise you?</a></h5>
+            <p>Right now, this is a home for my presentation on the motivation behind self supervised learning for pretraining computer vision models. The philosophy will follow soon...
             </p>
           </li>
 
           <br>
 
-          <li><h5><a href="https://rowhanm.github.io/RecreatingAlexNet/">Learning through <i>Recreational research</i></a> </h5>
-            <p> Recreating AlexNet from scratch in (old) Keras and understanding the math behind convolutions and pooling from first principles.  
-            <!-- <img src="./images/splits.png" style="display: block; margin: auto; height: 60%; width: 60%" alt="Life Splits"> -->
-            </p>
-          </li>
-          
-          <br>
-          <li><h5><a href="https://rowhanm.github.io/MiniCatsDogs/">Working with Less Data - Image classification with very few images. </a> </h5>
-            <p> Using Kaggle's Dogs v/s Cats to advocate the use of data augmentation and pseudo-labeling on pretty much any image
-            classification tasks.
-            <img src="./images/dogs.png" alt="Dogs v/s Cats">
+          <li><h5><a href="./sections/submod.html">Why we seem to lose interest in things over time?</a></h5>
+            <p>We like new things. We like a new start. A fresh beginning gives us a chance to put everything else aside and lets us only focus on things ahead of us - the bright future. Being an amateur at anything...
+            <img src="images/dim_ret.png" alt="Why we seem to lose interest in things over time?">
             </p>
           </li>
 
           <br>
 
-          <li><h5><a href="https://rowhanm.github.io/CuteDogOrNot/">Is your dog cute or not?! </a> </h5>
-            <p> Using state of the art AI find out if your dog is cute or not!
-            <img src="./images/CuteOrNot.png" alt="Dogs">
+          <li><h5><a href="./sections/surv.html">Thoughts on surveillance and computer vision's part in it</a></h5>
+            <p>I'm not a fan of surveillance. I've written papers on doing surveillance. Hypocritical? Perhaps yes.
+
+            Does it make me blind to now see its negative impacts? No.
+
+            A longer philo...
             </p>
           </li>
 
           <br>
-
-          <li><h5><a href="https://rowhanm.github.io/Kaggle-dogBreedClassifier/">Kaggle - Dog Breed Classification </a> </h5>
-            <p> My 527th ranked submission to the dog breed classification problem using a machine learning framework I wrote and the lessons learnt.
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8iiLu6JtrlpwKAjSiAXfSj3zqAK4vXILgWeqtch7I3i9uVQY5" alt="Dogs">
-            </p>
-          </li>
-
-          <br>
-
-          <li><h5><a href="https://rowhanm.github.io/flags-of-the-world/">Analyzing flags of the world</a> </h5>
-            <p> What would the combined flag of the world look like?
-            <img src="./images/flag.png" alt="Flags">  
-            </p>
-          </li>
-
-          <br>
+        
 
 
         </ul>
-        <br>
+      </section>
+
+      <section class="papers-section">
         <h4>Published Papers/Longer Reads</h4>
         <ul>
           <li>
@@ -160,8 +115,8 @@
             </blockquote>
           </li>
         </ul>
-      </div>
-  </div>
+      </section>
+    </div>
 </main>
 
 <script src="./javascripts/jquery.min.js" type="text/javascript"></script>
